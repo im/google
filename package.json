@@ -1,0 +1,26 @@
+{
+  "name": "google",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/im/google.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/im/google/issues"
+  },
+  "homepage": "https://github.com/im/google#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-convert": "^2.0.0",
+    "koa-mount": "^4.0.0",
+    "koa-proxy": "^1.0.0-alpha.3",
+    "zlib": "^1.0.5"
+  }
+}
