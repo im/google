@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/im/google#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "koa": "^2.13.1",
     "koa-convert": "^2.0.0",
     "koa-mount": "^4.0.0",
