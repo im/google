@@ -1,7 +1,7 @@
-var express = require('express')
-var proxy = require('http-proxy-middleware')
-var app = express()
-app.use('/', proxy({ target: 'https://www.google.com/', changeOrigin: true }))
-app.listen(3000)
-
-module.exports = app
+const { createProxyMiddleware } = require('http-proxy-middleware')
+module.exports = (req, res) => {
+    createProxyMiddleware({
+        target: 'https://www.google.com/',
+        changeOrigin: true,
+    })(req, res)
+}
